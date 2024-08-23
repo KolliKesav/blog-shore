@@ -3,10 +3,10 @@ import React from "react";
 function BlogPage(props)
 {
     return (
-        <div>
+        <div className="blogdet" style={{backgroundColor:"blanchedalmond", width:"auto" }}>
             <h2>{props.title}</h2>
-            <h4><i>by {props.author}</i></h4>
-            <h5>created on {props.date}</h5>
+            <p><i>by {props.author}</i></p>
+            <p>created on {props.date}</p>
             <p>
                 {props.body}
             </p>
